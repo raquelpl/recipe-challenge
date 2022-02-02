@@ -1,5 +1,5 @@
 :root {
-    --spacing: 4rem;
+    --spacing: 2rem;
     --title-font: "Playfair Display";
     --text-font: "Montserrat", sans-serif;
     --main-text: #333333;
@@ -32,6 +32,7 @@ body {
 
 a {
   color: #BDBDBD;
+  text-decoration: none; /* to have no underline */
 }
 
 p {
