@@ -4,7 +4,11 @@
     --text-font: "Montserrat", sans-serif;
     --main-text: #333333;
   }
-  
+
+header {
+  width: 70%;
+}
+
 body {
   max-width: 960px;
   margin: 0 auto var(--spacing);
@@ -12,6 +16,8 @@ body {
 
 .material-icons.md-18 { 
   font-size: 18px;
+  transform: rotate(90deg);
+  color: #C4C4C4;
 }
 
 .material-icons.md-30 { 
@@ -36,11 +42,20 @@ p {
   color: var(--main-text);
 }
 
+.intro {
+  font-family: var(--text-font);
+  font-style: italic;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4F4F4F;
+}
+
 .title-1 {
   font-family: var(--title-font);
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
+  line-height: 0px;
   color: #000000;
 }
 
@@ -76,14 +91,6 @@ p {
   font-family: var(--text-font);
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-  color: var(--main-text);
-}
-
-.intro {
-  font-style: italic;
-  font-weight: 500;
   font-size: 14px;
   line-height: 17px;
   color: var(--main-text);
