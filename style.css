@@ -1,0 +1,253 @@
+:root {
+    --spacing: 4rem;
+    --title-font: "Playfair Display";
+    --text-font: "Montserrat", sans-serif;
+    --main-text: #333333;
+  }
+  
+body {
+  max-width: 960px;
+  margin: 0 auto var(--spacing);
+}
+
+.material-icons.md-18 { 
+  font-size: 18px;
+}
+
+.material-icons.md-30 { 
+  font-size: 30px;
+  color: #F2994A;
+}
+
+.material-icons-outlined.md-30 { 
+  font-size: 30px;
+  color: var(--main-text);
+}
+
+a {
+  color: #BDBDBD;
+}
+
+p {
+  font-family: var(--text-font);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--main-text);
+}
+
+.title-1 {
+  font-family: var(--title-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: #000000;
+}
+
+.title-2 {
+  font-family: var(--title-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--main-text);
+}
+
+.title-3 {
+  font-family: var(--title-font);
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--main-text);
+}
+
+.title-4 {
+  font-family: var(--text-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #BDBDBD;
+} 
+
+.title-5 {
+  font-family: var(--text-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--main-text);
+}
+
+.intro {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--main-text);
+}
+
+.recipe-img {
+  width: 969px;
+  height: 470px;
+  border-radius: 10px;
+}
+
+.column {
+  float: left;
+  width: 480px;
+}
+
+.instructions {
+  width: 70%;
+}
+
+.notes {
+  width: 30%;
+}
+
+.notes-box {
+  position: relative;
+  width: 216px;
+  height: 367px;
+  left: 75px;
+  top: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* https://www.456bereastreet.com/archive/201105/styling_ordered_list_numbers/ */
+ol {
+	counter-reset: li; 
+	padding-left: 0; 
+} 
+
+ol li {
+	position: relative; 
+	margin: 0 0 6px 2em; 
+	padding: 8px 8px; 
+  font-family: var(--text-font);
+  font-weight: normal;
+  text-align: justify;
+  font-size: 16px;
+  color: var(--main-text);
+}
+
+ol li:before {
+	content: counter(li);
+	counter-increment: li;
+	position: absolute;
+	top: -2px;
+	left: -2em;
+	box-sizing: border-box;
+	width: 2em;
+	padding: 4px;
+	color:#ffffff;
+	background:#F2994A;;
+	font-weight: bold;
+	font-family: var(--title-font);
+	text-align: center;
+  border-radius: 10px;
+}
+
+
+/* NOTES-BOX Data 1 */
+.icon-position-1 {
+  position: absolute;
+  left: 40px;
+  top: 60px;
+}
+.title-position-1 {
+  position: absolute;
+  left: 80px;
+  top: 50px;
+}
+.subtitle-position-1 {
+  position: absolute;
+  left: 80px;
+  top: 60px;
+}
+
+/* NOTES-BOX Data 2 */
+.icon-position-2 {
+  position: absolute;
+  left: 40px;
+  top: 130px;
+}
+.title-position-2 {
+  position: absolute;
+  left: 80px;
+  top: 120px;
+}
+.subtitle-position-2 {
+  position: absolute;
+  left: 80px;
+  top: 130px;
+}
+
+/* NOTES-BOX Data 3 */
+.icon-position-3 {
+  position: absolute;
+  left: 40px;
+  top: 200px;
+}
+.title-position-3 {
+  position: absolute;
+  left: 80px;
+  top: 190px;
+}
+.subtitle-position-3 {
+  position: absolute;
+  left: 80px;
+  top: 200px;
+}
+
+/* NOTES-BOX Data 4 */
+.icon-position-4 {
+  position: absolute;
+  left: 40px;
+  top: 270px;
+}
+.title-position-4 {
+  position: absolute;
+  left: 80px;
+  top: 260px;
+}
+.subtitle-position-4 {
+  position: absolute;
+  left: 80px;
+  top: 270px;
+}
+
+.source {
+  font-style: italic;
+  line-height: 24px;
+  color: #BDBDBD;
+}
+
+.text-footer {
+  font-family: var(--text-font);
+  font-size: 14px;
+  text-align: center;
+  color: #828282;
+}
+
+/* 
+@media (min-width: 800px) {
+/* 
+  article {
+    flex-direction: row;
+    max-width: 960px;
+    margin: 0 auto var(--spacing);
+  } 
+
+} */
